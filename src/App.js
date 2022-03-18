@@ -1,15 +1,12 @@
-import './App.css';
+// import './App.css';
+// import NavBar from './components/NavBar';
 
-function App() {
-  return (
-    <div className="App">
-      {/* <Route path="/" exact component={Home} />
-      <Route path="/AboutUs" exact component={AboutUs} />
-      <Route path="/Roadmap" exact component={Roadmap} />
-      <Route path="/Team" exact component={Team} />
-      <Route path="/Footer" exact component={Footer} /> */}
-    </div>
-  );
-}
-// links
-export default App;
+// function App() {
+//   return (
+//     <div className="App">
+//       <NavBar />
+//     </div>
+//   );
+// }
+// // links
+// export default App;

@@ -1,12 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import NavBar from './components/NavBar.js';
+import Home from './components/Home.js';
+import AboutUs from './components/AboutUs.js';
+import Roadmap from './components/Roadmap.js';
+import Team from './components/Team.js';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <NavBar />
+      <Routes>
+        <Route path="/Home" element={<Home/>} />
+        <Route path="/AboutUs" element={<AboutUs/>} />
+        <Route path="/Roadmap" element={<Roadmap/>} />
+        <Route path="/Team" element={<Team/>} />
+      </Routes>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
