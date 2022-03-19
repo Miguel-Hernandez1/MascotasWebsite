@@ -1,0 +1,32 @@
+.container {
+  background-color: #fff;
+  padding: 4rem;
+  padding: 16px 53px;
+}
+
+.explanationAboutContainer {
+  text-align: left;
+  margin-top: 40px;
+}
+
+.explanationAboutContainer h1 {
+  color: #1E0E62;
+  font-size: 42px;
+}
+
+.explanationAboutContainer h3 {
+  color: #b9b9c4;
+  font-size: 30px;
+}
+
+.demoImgContainer{
+  height: 460px;
+  width: 542px;
+  margin-left: auto;
+  overflow: hidden;
+
+}
+
+.row{
+  padding: 60px 53px;
+}

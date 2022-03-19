@@ -1,12 +1,20 @@
 import React from "react";
-import "./Team.css";
+import classes from "./Team.module.css";
 
 function Team() {
   return (
     <div>
-      <div className="container-team">
-        <h1>Our Awesome Team </h1>
-        <h1>Add your Team content from Figma here!</h1>
+      <div className="container-fluid">
+        <div className={`row ${classes.row}`}>
+          <div className="col-12 col-md-6">
+            <div className={classes.teamContainer}>
+              <h1>Our Awesome Team </h1>
+              <h3>
+                This game was created by three highschool students!
+              </h3>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
