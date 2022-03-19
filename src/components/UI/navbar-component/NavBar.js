@@ -2,11 +2,11 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import logoNav from "../../../assets/logoNav.png";
 
-import "./NavBar.css";
+import classes from "./NavBar.module.css";
 
 function NavBar() {
   return (
-    <div className="Navbar-color">
+    <div className={classes.Navbar}>
       <nav className="navbar navbar-expand">
         <div className="container">
           <NavLink className="navbar-brand" to="/">
