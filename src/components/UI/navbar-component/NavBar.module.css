@@ -1,3 +1,42 @@
 .Navbar {
   background-color: #7DC9E0 !important;
 }
+
+.logoContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.logoContainer img{
+  flex: 0 0 50px;
+  height: auto;
+  margin: 0;
+}
+
+.logoContainer .name{
+  color: #fff;
+  margin: 0;
+  font-size: 36px;
+  line-height: 30px;
+}
+
+
+.links ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links ul li{
+  display: inline-block;
+}
+
+
+.links ul li a{
+  color: #fff;
+  font-size: 24px;
+}

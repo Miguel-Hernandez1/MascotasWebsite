@@ -1,0 +1,73 @@
+.container {
+  background-color: #fff;
+  padding: 4rem;
+  padding: 16px 53px;
+}
+
+.callToActionContainer {
+  text-align: left;
+  margin-top: 40px;
+}
+
+.callToActionContainer h1 {
+  color: #1E0E62;
+  font-size: 42px;
+}
+
+.callToActionContainer h3 {
+  color: #b9b9c4;
+  font-size: 30px;
+}
+
+
+.cityImgContainer{
+  height: 708px;
+  width: 500px;
+  margin-left: auto;
+  overflow: hidden;
+
+}
+
+.cityImgContainer img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.row{
+  padding: 60px 53px;
+}
+
+.callToActionContainer button{
+  color: #fff;
+  background-color: #22577A;
+
+  padding: 5px 15px;
+  border-radius: 100px;
+  outline: none;
+  border: none;
+}
+
+.callToActionContainer button p{
+  font-size: 22px;
+}
+
+.tabs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.tabImgContainer{
+  flex: 0 0 246px;
+  height: 247px;
+  overflow: hidden;
+  align-items: center;
+}
+
+.tabImgContainer img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

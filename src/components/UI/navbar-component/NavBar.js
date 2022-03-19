@@ -9,19 +9,19 @@ function NavBar() {
     <div className={classes.Navbar}>
       <nav className="navbar navbar-expand">
         <div className="container">
-          <NavLink className="navbar-brand" to="/">
+         
+          <NavLink className={classes.logoContainer} to="/">
             <img
-              className="img-fluid rounded mb-4 mb-lg-0"
               src={logoNav}
               alt="trying"
               width="50"
               height="25"
             />
-            Mascotas
+            <p className={classes.name}>Mascotas</p>
           </NavLink>
 
-          <div>
-            <ul className="navbar-nav ml-auto">
+          <div className={classes.links}>
+            <ul >
               <li className="nav-item">
                 <NavLink className="nav-link" to="/Home">
                   Home
