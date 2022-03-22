@@ -1,4 +1,82 @@
-.container-team {
-  background-color: lightblue;
+.container {
+  background-color: #fff;
   padding: 4rem;
+  padding: 16px 53px;
+}
+
+.teamContainer {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.teamContainer h1 {
+  color: #1E0E62;
+  font-size: 42px;
+}
+
+.teamContainer h3 {
+  color: #b9b9c4;
+  font-size: 30px;
+}
+
+.tabsContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
+
+}
+
+.tabImgContainerMiguel {
+  background-color: #7DC9E0;  
+  width: 350px;
+  height: 350px;
+  text-align: center;
+  margin-left: 6%;
+  border-style: solid;
+  border-color: black;
+  border-radius: 30px;
+
+}
+
+.tabImgContainerMiguel img{
+  width: 130px;
+  height: 230px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+
+.tabImgContainerDerick {
+  background-color: #7DC9E0;  
+  width: 350px;
+  height: 350px;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  border-radius: 30px;
+}
+
+.tabImgContainerDerick img{
+  width: 230px;
+  height: 230px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.tabImgContainerTroy {
+  background-color: #7DC9E0;  
+  width: 350px;
+  height: 350px;
+  margin-left: 6%;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  border-radius: 30px;
+}
+
+.tabImgContainerTroy img{
+  width: 170px;
+  height: 230px;
+  text-align: center;
+  border-radius: 30px;
 }
