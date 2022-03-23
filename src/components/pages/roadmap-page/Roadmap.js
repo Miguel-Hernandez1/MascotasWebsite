@@ -8,7 +8,7 @@ import triangle from "../../../assets/triangle.png";
  */
 function Roadmap() {
   return (
-    <div>
+    <div id="roadmap">
       <div className={classes.container}>
         <div className={classes.roadmapMilestonesContainer}>
           <div className={classes.percentages}>

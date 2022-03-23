@@ -7,7 +7,7 @@ import Troy from "../../../assets/TroyFull.png";
 
 function Team() {
   return (
-    <div className={classes.teamRow}>
+    <div className={classes.teamRow} id="team">
       <div className={classes.teamContainer}>
         <h1>Our Awesome Team </h1>
         <h3>This game was created by three highschool students!</h3>

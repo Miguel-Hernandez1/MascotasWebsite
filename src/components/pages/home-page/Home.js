@@ -7,7 +7,7 @@ import tab2 from "../../../assets/tab2.png";
 
 function Home() {
   return (
-    <div>
+    <div id='home'>
       <div className="container-fluid">
         <div className={`row ${classes.row}`}>
           <div className="col-12 col-md-6">
