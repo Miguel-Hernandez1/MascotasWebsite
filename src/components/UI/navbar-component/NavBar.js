@@ -5,42 +5,45 @@ import logoNav from "../../../assets/logoNav.png";
 import classes from "./NavBar.module.css";
 
 function NavBar() {
+  const scrollToSection = (id) => {
+    document.getElementById(id).scrollIntoView();
+  };
   return (
     <div className={classes.Navbar}>
       <nav className="navbar navbar-expand">
         <div className="container">
-         
           <NavLink className={classes.logoContainer} to="/">
-            <img
-              src={logoNav}
-              alt="trying"
-              width="50"
-              height="25"
-            />
+            <img src={logoNav} alt="trying" width="50" height="25" />
             <p className={classes.name}>Mascotas</p>
           </NavLink>
 
           <div className={classes.links}>
-            <ul >
+            <ul>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/Home">
+                <p className="nav-link" onClick={() => scrollToSection("home")}>
                   Home
-                </NavLink>
+                </p>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/AboutUs">
+                <p
+                  className="nav-link"
+                  onClick={() => scrollToSection("about-us")}
+                >
                   About
-                </NavLink>
+                </p>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/Roadmap">
+                <p
+                  className="nav-link"
+                  onClick={() => scrollToSection("roadmap")}
+                >
                   Roadmap
-                </NavLink>
+                </p>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/Team">
+                <p className="nav-link" onClick={() => scrollToSection("team")}>
                   Team
-                </NavLink>
+                </p>
               </li>
             </ul>
           </div>

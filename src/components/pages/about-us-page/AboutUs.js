@@ -4,7 +4,7 @@ import demo1 from "../../../assets/demo1.png";
 
 function AboutUs() {
   return (
-    <div>
+    <div id="about-us">
       <div className="container-fluid">
         <div className={`row ${classes.row}`}>
           <div className="col-12 col-md-6">

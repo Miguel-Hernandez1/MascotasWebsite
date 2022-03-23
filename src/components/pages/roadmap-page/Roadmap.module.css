@@ -60,6 +60,12 @@
   gap: 100px;
 }
 
+
+.milestoneRowItem{
+  flex: 1;
+}
+
+
 .milestoneRowItem h4 {
   font-size: 36px;
   text-transform: uppercase;

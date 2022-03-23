@@ -14,18 +14,26 @@ function Team() {
       </div>
 
       <div className={classes.tabsContainer}>
-        <div className={classes.tabImgContainerDerick}>
-          <img src={Derick} alt="Derick full image" />
+        <div className={classes.person}>
+          <div className={classes.teamProfileImageContainer}>
+            <img src={Derick} alt="Derick full" />
+          </div>
           <h1>Derick Barientos</h1>
           <h2>Lead Developer</h2>
         </div>
-        <div className={classes.tabImgContainerMiguel}>
-          <img src={Miguel} alt="Miguel full image" />
+        <div className={classes.person}>
+          <div className={classes.teamProfileImageContainer}>
+            <img src={Miguel} alt="Miguel full" />
+          </div>
+
           <h1>Miguel Hernandez</h1>
           <h2>Developer / Designer</h2>
         </div>
-        <div className={classes.tabImgContainerTroy}>
-          <img src={Troy} alt="Troy full image" />
+        <div className={classes.person}>
+          <div className={classes.teamProfileImageContainer}>
+            <img src={Troy} alt="Troy full" />
+          </div>
+
           <h1>Troy Calderon</h1>
           <h2>Lead Designer</h2>
         </div>

@@ -36,7 +36,10 @@
 }
 
 
-.links ul li a{
+.links ul li a,
+.links ul li p
+{
   color: #fff;
   font-size: 24px;
+  cursor: pointer;
 }
