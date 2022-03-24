@@ -4,6 +4,7 @@ import classes from "./Home.module.css";
 import cityImage from "../../../assets/city@1x.png";
 import tab1 from "../../../assets/tab1.png";
 import tab2 from "../../../assets/tab2.png";
+import home from "../../../assets/dogHom.png";
 
 function Home() {
   return (
@@ -33,7 +34,7 @@ function Home() {
 
           <div className="col-12 col-md-6">
             <div className={classes.cityImgContainer}>
-              <img src={cityImage} alt="city background" />
+              <img src={home} alt="city background" />
             </div>
           </div>
         </div>
