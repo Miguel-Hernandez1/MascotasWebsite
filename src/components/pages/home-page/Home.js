@@ -1,10 +1,13 @@
 import React from "react";
 import classes from "./Home.module.css";
 
+import Apps from "../../wallet-connector/WalletConnection";
+
 import cityImage from "../../../assets/city@1x.png";
 import tab1 from "../../../assets/tab1.png";
 import tab2 from "../../../assets/tab2.png";
 import home from "../../../assets/dogHom.png";
+
 
 function Home() {
   return (
@@ -18,8 +21,8 @@ function Home() {
                 Our mission is to help pets find homes and donate to animal
                 shelters so that animals can have better living conditions.
               </h3>
-              <button>
-                <p>Connect Wallet</p>
+              <button> 
+                <Apps/>
               </button>
               <div className={classes.tabs}>
                 <div className={classes.tabImgContainer}>

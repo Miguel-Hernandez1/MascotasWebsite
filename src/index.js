@@ -1,5 +1,6 @@
-import React from "react";
+import React, { PureComponent } from "react";
 import ReactDOM from "react-dom";
+
 import "./index.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NavBar from "./components/UI/navbar-component/NavBar";
@@ -10,6 +11,8 @@ import Team from "./components/pages/team-page/Team";
 import reportWebVitals from "./reportWebVitals";
 import App from "./App";
 import Footer from "./components/UI/footer-component/Footer";
+
+
 
 ReactDOM.render(
   <React.StrictMode>
